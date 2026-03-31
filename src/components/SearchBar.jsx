@@ -10,8 +10,7 @@ export default function SearchBar({ onSearch }) {
   };
 
   return (
-	<div className="min-h-screen flex flex-col items-center justify-center">
-		<h1 className="text-4xl font-bold mb-6">Dictionary</h1>
+	<div>
 		<form onSubmit={handleSubmit} className="flex gap-3 w-full max-w-xl mx-auto">
 		<input
 			type="text"
