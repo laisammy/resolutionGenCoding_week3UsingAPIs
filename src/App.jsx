@@ -1,5 +1,6 @@
 import { useState } from "react";
 import SearchBar from "./components/SearchBar";
+import WordResult from "./components/WordResult";
 
 export default function App() {
     const [data, setData] = useState(null);
