@@ -9,7 +9,7 @@ export default function WordResult({ data }) {
 
     useEffect(() => {
         async function fetchGif() {
-        const apiKey = "MBrz4R28EydjdK5YQAXGcrCDKMXdvxSA";
+        const apiKey = import.meta.env.VITE_GIPHY_KEY;
         const query = word;
         const url = `https://api.giphy.com/v1/gifs/search?api_key=${apiKey}&q=${query}&limit=1`;
 
